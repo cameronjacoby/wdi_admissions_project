@@ -22,4 +22,4 @@ Build a brand new single-page "About Me" website for yourself inside this new re
 
 ![ScreenShot](https://raw.githubusercontent.com/cameronjacoby/cameronjacoby.github.io/master/screenshots/social.png)
 
-![ScreenShot](https://raw.githubusercontent.com/cameronjacoby/cameronjacoby.github.io/master/screenshots/mobile_intro.png) ![ScreenShot](https://raw.githubusercontent.com/cameronjacoby/cameronjacoby.github.io/master/screenshots/mobile_carousel_social.png)
+![ScreenShot](https://raw.githubusercontent.com/cameronjacoby/cameronjacoby.github.io/master/screenshots/mobile_intro.png)          ![ScreenShot](https://raw.githubusercontent.com/cameronjacoby/cameronjacoby.github.io/master/screenshots/mobile_carousel_social.png)
