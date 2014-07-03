@@ -1,0 +1,107 @@
+<head>
+	<link href="style.css" rel="stylesheet">
+	<title>Cameron Jacoby | About Me</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+
+	<script>
+	  	currentIndx=0;
+		MyImages=new Array();
+		MyImages[0]='images/ceramics.jpg';
+		MyImages[1]='images/golden-gate.jpg';
+		MyImages[2]='images/cactus.jpg';
+
+		imagesPreloaded = new Array(3)
+		for (var i = 0; i < MyImages.length ; i++) {
+			imagesPreloaded[i] = new Image(350,350)
+			imagesPreloaded[i].src=MyImages[i]
+		}
+
+		function writeImageNumber() {
+			oSpan=document.getElementById("sp1");
+			oSpan.innerHTML="Image "+eval(currentIndx+1)+" of "+MyImages.length;
+		}
+
+		function Nexter() {
+			if (currentIndx<imagesPreloaded.length-1){
+			currentIndx=currentIndx+1;
+			document.theImage.src=imagesPreloaded[currentIndx].src
+			document.form1.text1.value=Messages[currentIndx];
+			} else {
+		 		currentIndx=0
+					document.theImage.src=imagesPreloaded[currentIndx].src
+					document.form1.text1.value=Messages[currentIndx];
+			}
+				writeImageNumber();
+		}
+		
+		function Backer() {
+			if (currentIndx>0) {
+				currentIndx=currentIndx-1;
+				document.theImage.src=imagesPreloaded[currentIndx].src
+				document.form1.text1.value=Messages[currentIndx];
+			} else {
+	 			currentIndx=2
+				document.theImage.src=imagesPreloaded[currentIndx].src
+				document.form1.text1.value=Messages[currentIndx];
+			}
+				writeImageNumber();
+		}
+
+		function setCurrentIndex() {
+			currentIndx=0;
+			document.theImage.src=MyImages[0];
+			document.form1.text1.value=Messages[0];
+			writeImageNumber();
+		}
+
+		function ThankYou() {
+			alert("Thank you!");
+		}
+	</script>
+</head>
+
+<body>
+	<div class="top">
+		<img class="logo-image" src="images/logo-cj.png"/>
+	</div>
+	<div class="top-text"><i>cameron jacoby</i></div>
+	<br>
+
+  	<div class="intro">
+  		<img class="cameron" src="images/cameron.jpg">
+  		<h1>Hi! I'm Cameron, and I'm learning how to code.</h1>
+  		<p>Originally from Jacksonville, Florida, I now call <a href="https://www.google.com/maps/place/South+of+Market/@37.7808157,-122.4024182,14z/" target="_blank">San Francisco</a> my home. I graduated from Washington University in St. Louis in December 2011 as an Economics major. I'm currently part of the merchandising team at <a href="https://www.stitchfix.com/" target="_blank">Stitch Fix</a>, and online personal styling service for women. Prior to Stitch Fix, I was the Director of Social Media for CakeStyle, another personal styling startup.<br><br>
+  		My startup experiences have given me the chance to work alongside developers as they optimize internal systems and create new features for clients. I've always had a curiosity for coding, and I can't wait to start learning more! Click <a href="#contact-info">here</a> to find my contact info.<br><br>
+  		Click through the slideshow below to get a glimpse of some of my favorite things around San Francisco.</p>
+  	</div>
+
+  	<body onload="setCurrentIndex();automaticly()">
+
+	<table class="carousel">
+		<tr>
+			<td><input type="button" value="&lt;&lt;" name="previous" onClick="Backer()"></td>
+			<td><img class="carousel-image" src="images/ceramics.jpg" name="theImage" /></td>
+			<td><input type="button" value="&gt;&gt;" name="next" onClick="Nexter()"></td>
+		</tr>
+	</table>
+ 		
+  	<div class="contact">
+  		<h2>Let's Get Social!</h2>
+		<a href="https://www.facebook.com/cameronjacoby" target="_blank"><img class="social-icon" src="https://cdn1.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_facebook_box_blue.png" /></a>
+  		<a href="https://twitter.com/cejtweets" target="_blank"><img class="social-icon" src="http://jonbennallick.co.uk/wp-content/uploads/2012/11/Twitter-Logo-Icon-by-Jon-Bennallick-02.png " /></a>
+  		<a href="http://instagram.com/cameronjacoby" target="_blank"><img class="social-icon" src="http://jsteurs.be/wp-content/uploads/2013/03/Instagram-Logo.png" /></a>
+  		<a href="https://www.linkedin.com/in/cameronjacoby" target="_blank"><img class="social-icon" src="http://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" /></a><br>
+  		<p class="email-prompt">Enter your email address to receive important updates about this site.</p>
+  		<input type="email" placeholder="Your email">
+  		<input type="submit" onClick="ThankYou()">
+	</div>
+	<br>
+
+	<div class="bottom">
+		<img class="logo-image" src="images/logo-cj.png"/>
+	</div>
+	<div class="bottom-text"><a name="contact-info" class="contact-info">cameron.jacoby@gmail.com
+	<br>904.314.9719</a></div>
+</body>
