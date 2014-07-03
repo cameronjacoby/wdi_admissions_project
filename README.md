@@ -3,7 +3,7 @@ cameronjacoby.github.io
 
 #### Admissions assignment for general assembly's web development immersive (WDI) course
 
-Time to complete: 15 hours
+**Time to complete: 15 hours**
 
 Instructions:
 Build a brand new single-page "About Me" website for yourself inside this new repository, using what you learned from Dash about HTML, CSS, and JavaScript. Your JavaScript code should go inside script tags inside the head section of your HTML file; however, your CSS styling should be implemented through an external style sheet. Make sure to include:
