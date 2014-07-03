@@ -72,7 +72,7 @@ input[type="button"] {
 	margin: 5px 10px 22px 10px;
 }
 
-.email-prompt {
+#email-prompt {
   font-size: 19px;
   margin: 0 10px 0 10px;
 }
@@ -150,7 +150,7 @@ input[type="submit"] {
   }
   #contact {
     width: 90%;
-    height: 650px;
+    height: 660px;
     margin-top: 80px;
   }
   .social-icon {
@@ -162,6 +162,7 @@ input[type="submit"] {
   }
   input {
     font-size: 48px;
+    margin-top: 40px;
   }
   .logo-image {
     height: 100px;
