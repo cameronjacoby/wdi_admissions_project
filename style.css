@@ -136,6 +136,7 @@ input[type="submit"] {
   }
   #intro {
   margin-top: 150px;
+  margin-bottom: 80px;
   }
   #cameron {
     width: 500px;
@@ -150,7 +151,7 @@ input[type="submit"] {
   #contact {
     width: 90%;
     height: 650px;
-    margin-bottom: 30px;
+    margin-top: 80px;
   }
   .social-icon {
     width: 100px;
@@ -169,6 +170,11 @@ input[type="submit"] {
     font-size: 35px;
     margin: 30px 15px 0 0;
   }
+
+  #bottom {
+    margin-top: 40px;
+  }
+
   #bottom-text {
     font-size: 33px;
     margin: 15px 0 0 15px;
