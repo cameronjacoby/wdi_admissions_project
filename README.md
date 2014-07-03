@@ -16,7 +16,10 @@ Build a brand new single-page "About Me" website for yourself inside this new re
 
 *We are not testing your programming aptitude*, so don't worry if your code isn't particularly fancy or polished - focus first on making something **simple** that **works**. What we want to see is your intellectual curiosity, resourcefulness, and programming potential; during your interview, we'll use this project as a starting point for a conversation about what you tried, where you got stuck, what you learned along the way, and ways that you'd continue to build out the site in the future.
 
-![ScreenShot](https://raw.githubusercontent.com/cameronjacoby/cameronjacoby.github.io/master/screenshots/intro.png)
+**Completed Project:**
+
+![ScreenShot](/screenshots/intro.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/cameronjacoby/cameronjacoby.github.io/master/screenshots/carousel.png)
 
 ![ScreenShot](https://raw.githubusercontent.com/cameronjacoby/cameronjacoby.github.io/master/screenshots/social.png)
