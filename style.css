@@ -1,16 +1,14 @@
 body {
   text-align: center;
   background: rgba(183, 235, 222, 1);
-  background-size: cover;
-  background-position: center;
   color: rgba(69, 65, 66, 1);
-  ffont-family: 'News Cycle', sans-serif;
+  font-family: 'News Cycle', sans-serif;
 }
 
 p {
+  margin: 0 auto;
   font-size: 20px;
   max-width: 600px;
-  margin: 0 auto;
   line-height: 130%;
 }
 
@@ -29,26 +27,27 @@ h2 {
   font-size: 28px;
 }
 
-.intro {
+#intro {
 	margin-top: 70px;
+  margin-bottom: 40px;
 }
 
-.cameron {
+#cameron {
   border: 3px solid white;
   border-radius: 100%;
 	width: 220px;
 }
 
-.carousel {
+#carousel {
   background: rgba(255,255,255,.4);
-  width: 500px;
+  width: 510px;
   height: 380px;
   padding: 10px;
-	margin: 40 auto;
-  border-radius: 10px
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
-.carousel-image {
+#carousel-image {
   width: 340px;
 }
 
@@ -58,12 +57,13 @@ input[type="button"] {
   margin: 10px;
 }
 
-.contact {
+#contact {
 	background: rgba(255,255,255,.4);
 	width: 500px;
 	height: 307px;
 	padding: 5px;
 	margin: 0 auto;
+  margin-top: 40px;
 	border-radius: 10px;
 }
 
@@ -91,7 +91,7 @@ input[type="submit"] {
   color: white;
 }
 
-.top {
+#top {
 	float: right;
 	margin: 10px 10px 0 0;
 }
@@ -101,25 +101,25 @@ input[type="submit"] {
   opacity: .4;
 }
 
-.top-text {
+#top-text {
   font-size: 15px;
   float: right;
   margin: 24px 10px 0 0;
 }
 
-.bottom {
+#bottom {
 	float: left;
-	margin: 20 0 15px 10px;
+	margin: 20px 0 15px 10px;
 }
 
-.bottom-text {
+#bottom-text {
   font-size: 14px;
   float: left;
   text-align: left;
   margin: 24px 0 0 10px;
 }
 
-.contact-info {
+#contact-info {
   color: rgba(69, 65, 66, 1);
 }
 
@@ -134,20 +134,20 @@ input[type="submit"] {
   h2 {
     font-size: 65px;
   }
-  .intro {
+  #intro {
   margin-top: 150px;
   }
-  .cameron {
+  #cameron {
     width: 500px;
   }
-  .carousel {
+  #carousel {
     width: 90%;
     height: 600px;
   }
-  .carousel-image {
+  #carousel-image {
     width: 500px;
   }
-  .contact {
+  #contact {
     width: 90%;
     height: 650px;
     margin-bottom: 30px;
@@ -155,7 +155,7 @@ input[type="submit"] {
   .social-icon {
     width: 100px;
   }
-  .email-prompt {
+  #email-prompt {
     font-size: 50px;
     margin: 10px 10px 15px 10px;
   }
@@ -165,11 +165,11 @@ input[type="submit"] {
   .logo-image {
     height: 100px;
   }
-  .top-text {
+  #top-text {
     font-size: 35px;
     margin: 30px 15px 0 0;
   }
-  .bottom-text {
+  #bottom-text {
     font-size: 33px;
     margin: 15px 0 0 15px;
   }
