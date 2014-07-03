@@ -5,7 +5,7 @@ cameronjacoby.github.io
 
 **Time to complete: 15 hours**
 
-Instructions:
+**Instructions:**
 Build a brand new single-page "About Me" website for yourself inside this new repository, using what you learned from Dash about HTML, CSS, and JavaScript. Your JavaScript code should go inside script tags inside the head section of your HTML file; however, your CSS styling should be implemented through an external style sheet. Make sure to include:
 
 - A section telling us more about you, your experience, and your contact information.
@@ -15,3 +15,5 @@ Build a brand new single-page "About Me" website for yourself inside this new re
   **Be sure to create all of the necessary files inside the local copy of your GitHub Pages repository!** As you work, remember to save your files, [add and commit your changes to the repository](https://help.github.com/articles/making-changes#make-a-change), and sync everything back to GitHub.com.
 
 *We are not testing your programming aptitude*, so don't worry if your code isn't particularly fancy or polished - focus first on making something **simple** that **works**. What we want to see is your intellectual curiosity, resourcefulness, and programming potential; during your interview, we'll use this project as a starting point for a conversation about what you tried, where you got stuck, what you learned along the way, and ways that you'd continue to build out the site in the future.
+
+![ScreenShot](https://raw.githubusercontent.com/cameronjacoby/cameronjacoby.github.io/master/screenshots/intro.png)
