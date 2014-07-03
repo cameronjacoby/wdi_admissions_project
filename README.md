@@ -2,6 +2,7 @@ cameronjacoby.github.io
 =======================
 
 Admissions assignment for general assembly's web development immersive (WDI) course
+
 Time to complete: 15 hours
 
 Instructions:
