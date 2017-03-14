@@ -1,4 +1,4 @@
-cameronjacoby.github.io
+WDI Admissions Project
 =======================
 
 #### Admissions assignment for general assembly's web development immersive (WDI) course
